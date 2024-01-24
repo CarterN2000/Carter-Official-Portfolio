@@ -1,0 +1,32 @@
+@import '../../vars.css';
+
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 0%;
+    z-index: 2;
+    margin: 0 10%;
+}
+
+.homeLink {
+    color: var(--color-text);
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+.linkList {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.link {
+    font-size: 25px;
+    color: var(--color-text);
+    text-decoration: none;
+    padding: 0 2vh;
+}
+
