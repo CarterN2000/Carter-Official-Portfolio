@@ -5,7 +5,7 @@
     color: var(--color-text);
     margin: 5%;
     background: rgba(12, 12, 12, 0.6);
-    border-radius: 10px;
+    border-radius: 25px;
     padding: 5%;
     z-index: 1;
 
@@ -61,4 +61,55 @@
     list-style: none;
     padding: 2%;
     /* border: 1px solid red; */
+    background-image: linear-gradient(
+        90deg, 
+        rgba(165, 215, 212, .42) 0%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: .3s;
+}
+
+.aboutItem:hover {
+    background-size: 100% 100%;
+}
+
+.aboutItem h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.aboutIcon {
+    height: 8vh;
+    width: auto;
+    margin-right: 1vw;
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        /* background-color: transparent; */
+        /* padding: 5% 0; */
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    /* .headshot {
+        display: none;
+    } */
+
+    .aboutItems {
+        margin-top: 3%;
+    }
+
+    /* .aboutItem {
+        padding: 2% 1%;
+    } */
+
+    .aboutIcon {
+        margin-right: 3vw;
+    }
 }
