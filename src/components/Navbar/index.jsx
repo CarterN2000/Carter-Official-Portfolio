@@ -19,13 +19,14 @@ export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false)
     return (
         <nav className={styles.navbar}>
-                <Link className={`${styles.link} ${styles.homeLink}`} to='/'>Carter's Porfolio</Link>
+                <Link className={`${styles.link} ${styles.homeLink}`} to='/' onClick={() => scrollToSection('topOfPage')}>Carter's Porfolio</Link>
                 <div className={styles.linkList}>
                     <img className={styles.hamburgerButton} src={
                         menuOpen ? 'closeIcon.png' : 'menuIcon.png'
                     } alt="Icon" onClick={() => setMenuOpen(!menuOpen)} />
                     <div className={`${styles.hamburgerItems} ${menuOpen && styles.menuOpen}`} onClick={() => setMenuOpen(false)}>
                         <Link className={styles.link} to='/about' onClick={() => scrollToSection('about')}>About</Link>
+                        <Link className={styles.link} to='/experience' onClick={() => scrollToSection('experience')}></Link>
                         <Link className={styles.link} to='/projects' onClick={() => scrollToSection('projects')}>Projects</Link>
                         <Link className={styles.link} to='/contact' onClick={() => scrollToSection('contact')}>Contact Me</Link>
                     </div>

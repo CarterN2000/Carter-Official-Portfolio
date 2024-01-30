@@ -2,7 +2,7 @@ import styles from './Main.module.css'
 
 export default function Main() {
     return(
-    <section className={styles.container}>
+    <section className={styles.container} id='topOfPage'>
         <div className={styles.content}>
             <h1 className={styles.intro}>Hi, I'm Carter!</h1>
             <p className={styles.description}>A lover of sports, socializing, and software development with a constant desire to learn and grow!</p>
