@@ -1,0 +1,39 @@
+[
+    {
+        "title": "Python",
+        "imageSrc": "Tech_Icons/python.png"
+    },
+    {
+        "title": "Node.js",
+        "imageSrc": "Tech_Icons/node.png"
+    },
+    {
+        "title": "React",
+        "imageSrc": "Tech_Icons/react.png"
+    },
+    {
+        "title": "Django",
+        "imageSrc": "Tech_Icons/django.png"
+    },
+    {
+        "title": "Bootstrap",
+        "imageSrc": "Tech_Icons/bootstrap.png"
+    },
+    {
+        "title": "CSS",
+        "imageSrc": "Tech_Icons/css.png"
+    },
+    {
+        "title": "HTML",
+        "imageSrc": "Tech_Icons/html.png"
+    },
+
+    {
+        "title": "MongoDB",
+        "imageSrc": "Tech_Icons/mongodb.png"
+    },
+    {
+        "title": "SQL",
+        "imageSrc": "Tech_Icons/sql.png"
+    }
+]

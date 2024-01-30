@@ -6,6 +6,7 @@ import styles from './App.module.css'
 import Navbar from './components/Navbar'
 import About from './components/About'
 import Main from './components/Main'
+import Experience from './components/Experience'
 
 function App() {
 

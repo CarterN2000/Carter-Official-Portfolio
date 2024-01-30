@@ -1,1 +1,25 @@
 @import '../../vars.css';
+
+.techIcon {
+    height: 10vh;
+    width: auto;
+    border: 1px solid green;
+    padding: 0%;
+}
+
+.historyIcon {
+    height: 10vh;
+    width: auto;
+
+}
+
+.beeYou {
+    height: 10vh;
+    width: auto;
+    border-radius: 50%;
+}
+
+.container {
+    color: var(--color-text);
+    margin: 5vh 10% 0;
+}

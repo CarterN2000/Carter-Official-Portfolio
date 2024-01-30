@@ -1,0 +1,23 @@
+[
+    {
+        "role": "Student",
+        "organization": "SUNY Brockport",
+        "startDate": "August 2019",
+        "endDate": "May 2023",
+        "imageSrc": "History_Icons/brockport.png"
+    },
+    {
+        "role": "Student",
+        "organization": "General Assembly",
+        "startDate": "October 2023",
+        "endDate": "January 2024",
+        "imageSrc": "History_Icons/ga.png"
+    },
+    {
+        "role": "Manager",
+        "organization": "Cafe Bee You",
+        "startDate": "January 2021",
+        "endDate": "May 2023",
+        "imageSrc": "History_Icons/bee-you.png"
+    }
+]
