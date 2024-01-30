@@ -5,26 +5,28 @@ import history from '../../data/history.json'
 export default function Experience() {
     return (
         <section id='experience' className={styles.container}>
-            <h2>Education & Experience</h2>
-            <div>
-                <div>
+            <h2 className={styles.title}>Education & Experience</h2>
+            <div className={styles.content}>
+                <div className={styles.skills}>
                    {skills.map(function(skill, id) {
                         return (
-                            <div key={id}>
-                                <img className={styles.techIcon} src={skill.imageSrc} alt={skill.title}/>
+                            <div key={id} className={styles.skill}>
+                                <div className={styles.skillContainer}>
+                                    <img className={styles.techIcon} src={skill.imageSrc} alt={skill.title}/>
+                                </div>
                                 <p>{skill.title}</p>
                             </div>
                         )
                    })}
                 </div>
-                <ul>
+                <ul className={styles.history}>
                    {
                     history.map(function(item, id) {
                         return (
-                            <li key={id}>
+                            <li key={id} className={styles.historyItem}>
                                 <img className={item.organization === 'Cafe Bee You' ? styles.beeYou : styles.historyIcon} src={item.imageSrc} alt={item.organization}/>
-                                <div>
-                                    <h2>{item.role}, {item.organozation}</h2>
+                                <div className={styles.historyDetails}>
+                                    <h2>{item.role}, {item.organization}</h2>
                                     <p>{item.startDate} - {item.endDate}</p>
                                 </div>
                             </li>

@@ -27,13 +27,12 @@
         "title": "HTML",
         "imageSrc": "Tech_Icons/html.png"
     },
-
     {
         "title": "MongoDB",
         "imageSrc": "Tech_Icons/mongodb.png"
     },
     {
-        "title": "SQL",
-        "imageSrc": "Tech_Icons/sql.png"
+        "title": "PostgreSQL",
+        "imageSrc": "Tech_Icons/postgres.png"
     }
 ]

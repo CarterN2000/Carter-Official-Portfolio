@@ -3,8 +3,8 @@
 .techIcon {
     height: 10vh;
     width: auto;
-    border: 1px solid green;
-    padding: 0%;
+    /* border: 1px solid green; */
+    /* padding: 0%; */
 }
 
 .historyIcon {
@@ -17,9 +17,90 @@
     height: 10vh;
     width: auto;
     border-radius: 50%;
+    border: 2px solid black;
 }
 
 .container {
     color: var(--color-text);
-    margin: 5vh 10% 0;
+    margin: 5vh 5% 0;
 }
+
+.title {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2vh;
+}
+
+.skills {
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.skillContainer {
+    background-color: var(--color-secondary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    margin: 1vh 1vw;
+}
+
+.skill p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.historyItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3vw;
+    background: #19376d;
+    background: linear-gradient(90deg, #19376d 0%, rgba(23, 55, 109,0 ) 100%);
+    border-radius: 10px;
+    margin: 2vh 0;
+    padding: 1vh;
+}
+
+.historyDetails h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.historyDetails p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 830px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .history {
+        width: 100%;
+        margin-top: 2vh;
+    }
+
+
+}
+
