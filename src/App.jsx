@@ -7,6 +7,7 @@ import Navbar from './components/Navbar'
 import About from './components/About'
 import Main from './components/Main'
 import Experience from './components/Experience'
+import Projects from './components/Projects'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
     <Main />
     <About />
     <Experience />
+    <Projects />
   </div>
   )
 }

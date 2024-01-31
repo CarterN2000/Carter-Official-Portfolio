@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Browser Blackjack",
+        "imageSrc": "./Projects/BlackjackSS.png",
+        "technology": ["HTML", "CSS", "Javascript"],
+        "demo": "https://cartern2000.github.io/project1-blackjack/",
+        "source": "https://github.com/CarterN2000/project1-blackjack"
+    },
+    {
+        "title": "Developing Feelings",
+        "imageSrc": "./Projects/develop_login.png",
+        "technology": ["Express", "Javascript", "Node.js", "MongoDB", "CSS", "Google OAuth"],
+        "demo": "https://developing-feelings-d5735203c312.herokuapp.com/",
+        "source": "https://github.com/CarterN2000/Project-2"
+    },
+    {
+        "title": "All-Star AI",
+        "imageSrc": "./Projects/Allstar.png",
+        "technology": ["Javascript", "React", "Express", "MongoDB", "Node.js", "Tailwind"],
+        "demo": "https://cartern2000.github.io/project1-blackjack/",
+        "source": "https://github.com/CarterN2000/project1-blackjack"
+    },
+    {
+        "title": "Progressive Overachieving",
+        "imageSrc": "./Resources_Page.png",
+        "technology": ["Python", "Django", "PostgreSQL", "Bootstrap", "CSS"],
+        "demo": "https://cartern2000.github.io/project1-blackjack/",
+        "source": "https://github.com/CarterN2000/project1-blackjack"
+    }
+]
