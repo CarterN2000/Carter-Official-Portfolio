@@ -1,11 +1,11 @@
 [
     {
-        "title": "Browser Blackjack",
-        "imageSrc": "./Projects/BlackjackSS.png",
-        "desc": "A browser-based blackjack simulator that allows the player to work with a custom balance selector and enjoy a seamless playing experience.",
-        "technology": ["HTML", "CSS", "Javascript"],
-        "demo": "https://cartern2000.github.io/project1-blackjack/",
-        "source": "https://github.com/CarterN2000/project1-blackjack"
+        "title": "Progressive Overachieving",
+        "imageSrc": "./Projects/Resources_Page.png",
+        "desc": "A gym tracker application designed to help users constantly achieve their workout goals.",
+        "technology": ["Python", "Django", "PostgreSQL", "Bootstrap", "CSS"],
+        "demo": "https://progressive-overachieving-cced9ec75b7f.herokuapp.com/",
+        "source": "https://github.com/CarterN2000/Project-4"
     },
     {
         "title": "Developing Feelings",
@@ -24,11 +24,11 @@
         "source": "https://github.com/CarterN2000/Project-3"
     },
     {
-        "title": "Progressive Overachieving",
-        "imageSrc": "./Projects/Resources_Page.png",
-        "desc": "A gym tracker application designed to help users constantly achieve their workout goals.",
-        "technology": ["Python", "Django", "PostgreSQL", "Bootstrap", "CSS"],
-        "demo": "https://progressive-overachieving-cced9ec75b7f.herokuapp.com/",
-        "source": "https://github.com/CarterN2000/Project-4"
+        "title": "Browser Blackjack",
+        "imageSrc": "./Projects/BlackjackSS.png",
+        "desc": "A browser-based blackjack simulator that allows the player to work with a custom balance selector and enjoy a seamless playing experience.",
+        "technology": ["HTML", "CSS", "Javascript"],
+        "demo": "https://cartern2000.github.io/project1-blackjack/",
+        "source": "https://github.com/CarterN2000/project1-blackjack"
     }
 ]

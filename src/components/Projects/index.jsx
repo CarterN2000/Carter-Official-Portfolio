@@ -23,8 +23,8 @@ export default function Projects() {
                                 }
                             </ul>
                             <div className={styles.allLinks}>
-                                <a className={styles.link} href={project.demo}>Go to App</a>
-                                <a className={styles.link} href={project.source}>View the Code</a>
+                                <a target="_blank" className={styles.link} href={project.demo}>Go to App</a>
+                                <a target="_blank" className={styles.link} href={project.source}>View the Code</a>
                             </div>
                         </div>
                     )
