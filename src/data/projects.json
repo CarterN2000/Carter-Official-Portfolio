@@ -20,15 +20,15 @@
         "imageSrc": "./Projects/Allstar.png",
         "desc": "An AI chatbot created for users to strike up a fun conversation with and discuss sports topics.",
         "technology": ["Javascript", "React", "Express", "MongoDB", "Node.js", "Tailwind"],
-        "demo": "https://cartern2000.github.io/project1-blackjack/",
-        "source": "https://github.com/CarterN2000/project1-blackjack"
+        "demo": "https://allstarai.netlify.app/",
+        "source": "https://github.com/CarterN2000/Project-3"
     },
     {
         "title": "Progressive Overachieving",
         "imageSrc": "./Projects/Resources_Page.png",
         "desc": "A gym tracker application designed to help users constantly achieve their workout goals.",
         "technology": ["Python", "Django", "PostgreSQL", "Bootstrap", "CSS"],
-        "demo": "https://cartern2000.github.io/project1-blackjack/",
-        "source": "https://github.com/CarterN2000/project1-blackjack"
+        "demo": "https://progressive-overachieving-cced9ec75b7f.herokuapp.com/",
+        "source": "https://github.com/CarterN2000/Project-4"
     }
 ]
