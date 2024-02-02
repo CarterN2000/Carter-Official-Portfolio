@@ -11,21 +11,21 @@ export default function About() {
                         <img className={styles.aboutIcon} src="Fun_Icons/Fullstack_Icon.png" alt="Icon_1"/>
                         <div className={styles.text}>
                             <h3>I am a Full Stack Developer</h3>
-                            <p>My skillset includes experience in both frontend and backend development. I primarily work in JavaScript and Python, and my favorite frameworks are React and Django. My favorite aspect about coding is the satisfaction from solving difficult coding problems.</p>
+                            <p>My skillset includes experience in both frontend and backend development. I primarily work in JavaScript and Python, and my favorite frameworks are React and Django. My favorite aspect about coding is the satisfaction I recieve from solving difficult coding problems.</p>
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
                         <img className={styles.aboutIcon} src="Fun_Icons/Psychology_Icon_2.png" alt="Icon_2"/>
                         <div className={styles.text}>
                             <h3>I Have a Background in Psychology</h3>
-                            <p>I graduated from SUNY Brockport with a BS in Psychology, plus two minors in Forensic Science and Business Administration. I believe having a well rounded background helps me tackle problems from a unique point of view.</p>
+                            <p>I graduated from SUNY Brockport with a BS in Psychology, along with two minors in Forensic Science and Business Administration. I believe having a well rounded background helps me tackle problems from a unique point of view.</p>
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
                         <img className={styles.aboutIcon} src="Fun_Icons/sportsIcon.png" alt="Sports" />
                         <div className={styles.text}>
                             <h3>I Enjoy Living an Active Lifestyle</h3>
-                            <p>In addition to my passion for full stack development, I enjoy spending my free time watching and playing a variety of sports. I workout about 3-4 times a week, and when I get the opportunity, I enjoy traveling to new places.</p>
+                            <p>In addition to my passion for full stack development, I enjoy spending my free time watching and playing a variety of sports. I maintain a consistent workout schedule, and enjoy traveling to new places.</p>
                         </div>
                     </li>
                 </ul>
