@@ -5,7 +5,7 @@ export default function Main() {
     <section className={styles.container}>
         <div className={styles.content}>
             <h1 className={styles.intro}>Hi, I'm Carter!</h1>
-            <p className={styles.description}>Passionate about sports, social connections, and the world of software development, continuously seeking opportunities for personal and professional development</p>
+            <p className={styles.description}>An individual passionate about sports, social connections, and the world of software development, continuously seeking opportunities for personal and professional growth.</p>
             <a className={styles.contact} href="mailto:CarterN2500@gmail.com">Contact Me</a>
         </div>
         <img className={styles.mySprite} src="Carter/Carter-Single-Sprite.png" alt="Carter's Sprite" />
