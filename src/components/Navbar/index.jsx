@@ -19,7 +19,7 @@ export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false)
     return (
         <nav className={styles.navbar} id='topOfPage'>
-                <Link className={`${styles.link} ${styles.homeLink}`} to='/' onClick={() => scrollToSection('topOfPage')}>Carter's Porfolio</Link>
+                <Link className={`${styles.link} ${styles.homeLink}`} to='/' onClick={() => scrollToSection('topOfPage')}>Carter Nichols</Link>
                 <div className={styles.linkList}>
                     <img className={styles.hamburgerButton} src={
                         menuOpen ? 'closeIcon.png' : 'menuIcon.png'

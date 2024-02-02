@@ -4,8 +4,9 @@ export default function Contact() {
     return(
         <footer id='contact' className={styles.container}>
             <div className={styles.text}>
-                <h2>Contact Me!</h2>
+                <h2>Contact Me</h2>
                 <p>Feel Free to Reach Out!</p>
+                {/* <h6 id='topOfPage'>Return to Top</h6> */}
             </div>
             <ul className={styles.allLinks}>
                 <li className={styles.link}>
