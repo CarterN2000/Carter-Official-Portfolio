@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom'
 import styles from './Navbar.module.css'
 import { useState } from 'react'
-import { getImageUrl } from '../../utils'
 
 const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
