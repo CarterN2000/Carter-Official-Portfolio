@@ -23,6 +23,7 @@
 .container {
     color: var(--color-text);
     margin: 5vh 5% 0;
+    font-family: 'Nunito', serif;
 }
 
 .title {
