@@ -7,7 +7,7 @@ import Navbar from './components/Navbar'
 import About from './components/About'
 import Main from './components/Main'
 import Experience from './components/Experience'
-import Projects from './components/Projects'
+import Project from './components/Project'
 import Contact from './components/Contact'
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
     <Main />
     <About />
     <Experience />
-    <Projects />
+    <Project />
     <Contact />
   </div>
   )
