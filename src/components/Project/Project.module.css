@@ -69,7 +69,7 @@
     font-weight: 400;
     border-radius: 100px;
     background: var(--color-dark);
-    padding: 1vh 2vh;
+    padding: 1vh 1.5vh;
 }
 
 .allLinks {
@@ -86,5 +86,5 @@
     font-weight: 600;
     border-radius: 100px;
     background: var(--color-primary);
-    padding: 1vh 2vh;
+    padding: 1vh 1.5vh;
 }

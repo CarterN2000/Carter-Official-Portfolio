@@ -71,14 +71,18 @@
     }
 
     .text h2 {
-        font-size: 60px;
+        font-size: 50px;
     }
 
     .text p{
-        font-size: 30px;
+        font-size: 24px;
     }
 
     .allLinks {
         align-items: center;
+    }
+
+    .link a{
+        font-size: 24px;
     }
 }

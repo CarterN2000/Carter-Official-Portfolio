@@ -11,7 +11,7 @@ export default function About() {
                         <img className={styles.aboutIcon} src="Fun_Icons/Fullstack_Icon.png" alt="Icon_1"/>
                         <div className={styles.text}>
                             <h3>I am a Full Stack Developer</h3>
-                            <p>My skillset includes experience in both frontend and backend development. I primarily work in JavaScript and Python, and my favorite frameworks are React and Django. My favorite aspect about coding is the satisfaction I recieve from solving difficult coding problems.</p>
+                            <p>My skillset includes experience in both frontend and backend development. I primarily work in JavaScript and Python, and my most used frameworks are React and Django. My favorite aspect about coding is the satisfaction I recieve from solving difficult coding problems.</p>
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
